@@ -4,7 +4,7 @@ Config.locale = 'en'
 
 Config.debugLevel = false -- 0-4, false or 0 = off
 
-Config.maxInventoryWeight = 24000 -- See the bridge/esx|qb/config.lua or standalone/overrides/inventory name/config.lua
+Config.maxInventoryWeight =  120000 -- See the bridge/esx|qb/config.lua or standalone/overrides/inventory name/config.lua
 Config.maxInventorySlots = 41 -- See the bridge/esx|qb/config.lua or standalone/overrides/inventory name/config.lua
 
 Config.versionCheck = true
