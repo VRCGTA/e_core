@@ -38,13 +38,13 @@ Config.metaFields = {
 }
 
 Config.defaultLabor = 1000 -- Default labor for new players
-Config.laborLimit = 5000 -- Max labor points
+Config.laborLimit = 10000 -- Max labor points
 Config.abilityLimit = 120000 -- if the not set levels (eg.: Max proficiency points)
 
 
 Config.laborIncreaseTime = 5 -- Default 5 (min), if 0 then turn off automatic labor
-Config.laborIncrease = 10 -- Every increaseTime minutes grow so much
-Config.laborIncreaseOffline = 10 -- Every increaseTime minutes grow so much, if 0 then turn off automatic OFFLINE labor
+Config.laborIncrease = 20 -- Every increaseTime minutes grow so much
+Config.laborIncreaseOffline = 20 -- Every increaseTime minutes grow so much, if 0 then turn off automatic OFFLINE labor
 
 Config.keyBind = { -- Default RegisterKeyMapping (if useTarget = false)
     openStat = 'o', -- Open Skill page

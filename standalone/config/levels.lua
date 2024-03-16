@@ -3,7 +3,7 @@
 Config.levels = {
 
     { -- 0. Base
-        limit = 5000, -- proficiency upper limit
+        limit = 250, -- proficiency upper limit
         labor = 0, -- labor cost reduction as a percentage
         time = 0, -- crafting time reduction as a percentage
         price = 0, -- money cost reduction as a percentage
@@ -11,7 +11,7 @@ Config.levels = {
         speed = 0 -- increase speed as a percentage
     },
     { -- 1. Novice
-        limit = 10000,
+        limit = 500,
         labor = 0,
         time = 3,
         price = 0,
@@ -19,7 +19,7 @@ Config.levels = {
         speed = 0
     },
     { -- 2. Veteran
-        limit = 20000,
+        limit = 750,
         labor = 5,
         time = 6,
         price = 3,
@@ -27,7 +27,7 @@ Config.levels = {
         speed = 10
     },
     { -- 3. Expert
-        limit = 30000,
+        limit = 1000,
         labor = 10,
         time = 6,
         price = 5,
@@ -35,7 +35,7 @@ Config.levels = {
         speed = 10
     },
     { -- 4. Master
-        limit = 40000,
+        limit = 1500,
         labor = 15,
         time = 6,
         price = 8,
@@ -43,7 +43,7 @@ Config.levels = {
         speed = 10
     },
     { -- 5. Authority
-        limit = 50000,
+        limit = 2000,
         labor = 20,
         time = 12,
         price = 10,
@@ -51,7 +51,7 @@ Config.levels = {
         speed = 10
     },
     { -- 6. Champion
-        limit = 60000,
+        limit = 2750,
         labor = 20,
         time = 12,
         price = 12,
@@ -59,7 +59,7 @@ Config.levels = {
         speed = 10
     },
     { -- 7.Adept
-        limit = 70000,
+        limit = 4000,
         labor = 20,
         time = 12,
         price = 15,
@@ -67,7 +67,7 @@ Config.levels = {
         speed = 10
     },
     { -- 8. Herald
-        limit = 85000,
+        limit = 6000,
         labor = 20,
         time = 16,
         price = 15,
@@ -75,7 +75,7 @@ Config.levels = {
         speed = 10
     },
     { -- 9. Virtuoso
-        limit = 100000,
+        limit = 8500,
         labor = 25,
         time = 16,
         price = 20,
@@ -83,7 +83,7 @@ Config.levels = {
         speed = 10
     },
     { -- 10. Celebrity
-        limit = 120000,
+        limit = 12000,
         labor = 30,
         time = 20,
         price = 25,
