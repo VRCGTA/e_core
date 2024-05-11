@@ -159,8 +159,8 @@ if QB_CORE then
             and not IsPauseMenuActive()
             and not IsPedInAnyVehicle(_PlayerPedId, true)
             and not IsPedSwimming(_PlayerPedId)
-            and not playerData.metadata['inlaststand']
-            and not playerData.metadata['isdead']
+            and not playerData.condition.in_last_stand
+            and not playerData.condition.in_dead
             and IsPedOnFoot(_PlayerPedId)
     end
 
